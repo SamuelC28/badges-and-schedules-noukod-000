@@ -5,11 +5,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(conference_speakers)
- another_arr = Array.new()
+ badge_msg_array = Array.new()
 
   conference_speakers.each do |name|
     message = badge_maker(name)
-    another_arr << message
+    badge_msg_arrayr << message
   end
-   return another_arr
+   return badge_msg_array
 end
