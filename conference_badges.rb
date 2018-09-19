@@ -15,8 +15,12 @@ def batch_badge_creator(conference_speakers)
 end
 
 def assign_rooms(conference_speakers)
-  conference_speakers.each_with_index do |roomNum, message|
-   return "Hello #{message}! You'll be assigned to room #{roomNum}!"
+  
+  thelist = Array.new()
+  conference_speakers.each_with_index do |name, index|
+   messase_for_each_person_per_room = "Hello #{name}! You'll be assigned to room #{index + 1}!"
+   thelist << messase_for_each_person_per_room
   end
+  return thelist
 end
 # 
