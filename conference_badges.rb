@@ -19,4 +19,3 @@ def assign_rooms(conference_speakers)
    return "Hello #{message}! You'll be assigned to room #{roomNum}!"
   end
 end
-
