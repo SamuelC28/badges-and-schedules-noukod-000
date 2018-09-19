@@ -10,5 +10,5 @@ def batch_badge_creator(conference_speakers)
   conference_speakers.each do |name|
     message = badge_maker(name)
   end
-   puts message
+   puts another_arr
 end
