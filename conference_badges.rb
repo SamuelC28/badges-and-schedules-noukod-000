@@ -8,7 +8,7 @@ def batch_badge_creator(conference_speakers)
  another_arr =[]
 
   conference_speakers.each do |name|
-    message = "Hello, my name is #{name}."
+    message = badge_maker(name)
     another_arr << message
   end
    return another_arr
