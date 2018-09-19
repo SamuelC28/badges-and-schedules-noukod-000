@@ -8,7 +8,8 @@ def batch_badge_creator(conference_speakers)
  another_arr = Array.new()
 
   conference_speakers.each do |name|
-    message = badge_maker(name)
+    message = "Hello, my name is #{name}."
+    another_arr << message
   end
    puts another_arr
 end
