@@ -27,6 +27,12 @@ def assign_rooms(conference_speakers)
 end
 
 def printer(conference_speakers)
-  batch_badge_creator(conference_speakers).each { |the_message| puts message}
-  assign_rooms(conference_speakers).each { |the_message2| puts the_message2}
+  the_message = batch_badge_creator(conference_speakers)
+  the_message.each do |the_msg| 
+    puts the_msg
+  end
+  the_scd_msg = assign_rooms(conference_speakers)
+  the_scd_msg.each do |the_msg2| 
+    puts the_msg2
+end
 end
