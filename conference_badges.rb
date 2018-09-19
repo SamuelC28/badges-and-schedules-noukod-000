@@ -17,7 +17,7 @@ end
 def assign_rooms(conference_speakers)
   conference_speakers.each_with_index do |roomNum, message|
    message << "Hello #{message}! You'll be assigned to room #{roomNum}!"
-    
+
   end
   return message
 end
