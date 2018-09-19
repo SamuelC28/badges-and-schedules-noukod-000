@@ -9,7 +9,7 @@ def batch_badge_creator(conference_speakers)
 
   conference_speakers.each do |name|
     message = badge_maker(name)
-    badge_msg_arrayr << message
+    badge_msg_array << message
   end
    return badge_msg_array
 end
