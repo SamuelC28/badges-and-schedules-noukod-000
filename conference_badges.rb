@@ -11,5 +11,5 @@ def batch_badge_creator(conference_speakers)
     message = "Hello, my name is #{name}."
     another_arr << message
   end
-   puts another_arr
+   return another_arr
 end
